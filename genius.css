@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(245, 140, 20, 0.952), #fff9a1, #fff9a1, #fff9a1);
+    /* position: relative; */
+}
+
+.new{
+    font-size: 2rem;
+    color: blue;
+    position: absolute;
+    margin: 1rem;
+    animation: blink 0.5s ease infinite alternate;
+    /* background-color: rgba(245, 140, 20, 0.308) ; */
+}
+
+/* .heading{
+    display: flex;
+    justify-content: space-evenly;
+} */
+#time{
+    float: right;
+    /* margin-top: -2rem; */
+}
+h1 {
+    /* line-height: 5rem; */
+    text-align: center;
+    font-size: 3rem;
+    color: red;
+}
+
+th {
+    border: 1px solid black;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    color: rgba(0, 0, 255, 0.781);
+    background-color: #F0F0F0;
+}
+
+table {
+    margin: 2rem 0 0 2rem;
+}
+
+.btn {
+    position: absolute;
+    float: right;
+    margin-top: 44rem;
+    margin-left: 63rem;
+
+
+}
+.active{
+    background-color: rgba(96, 219, 96, 0.692);
+}
+.btn2 {
+    /* position: absolute; */
+    margin-top: 3rem;
+    margin-right: -23rem;
+    float: right;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 500;
+    padding: 1.2rem;
+    background-color: rgba(240, 179, 11, 0.486);
+}
+
+button {
+    font-size: 2rem;
+    padding: 1rem 3rem;
+    /* padding-left: 5rem;
+    padding-right: 5rem; */
+    color: blue;
+}
+
+th:hover {
+    color: red;
+    cursor: pointer;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+@keyframes blink {
+    0%{
+        box-shadow: 0 0 2rem 0.5rem rgba(202, 130, 47, 0.438);
+    }
+    100%{
+        box-shadow: 0 0 2rem 0.5rem rgba(245, 140, 20, 0.952);
+    }
+}
+
+
+@media only screen and (min-width: px){
+    th {
+        border: 1px solid black;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        line-height: 2.7rem;
+        font-size: 2rem;
+        color: rgba(0, 0, 255, 0.781);
+        background-color: #F0F0F0;
+    }
+    
+}
